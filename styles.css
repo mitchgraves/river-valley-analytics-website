@@ -1014,7 +1014,145 @@ body {
 }
 
 .btn-cta-primary {
-    background: #059669;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    text-transform\
+  background: #059669;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.btn-cta-primary:hover {
+  background: #047857;
+}
+
+/* Footer */
+.footer {
+  background: #000000;
+  color: #ffffff;
+  border-top: 2px solid #000000;
+  padding: 3rem 0 1.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.footer-brand {
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo-img {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(1);
+}
+
+.footer-brand-title {
+  font-weight: 900;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.footer-brand-text {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footer-contact,
+.footer-newsletter {
+  text-align: center;
+}
+
+.footer-section-title {
+  font-weight: 900;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #059669;
+}
+
+.footer-icon {
+  font-size: 1rem;
+  width: 1.25rem;
+  text-align: center;
+}
+
+.footer-newsletter-text {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom {
+  border-top: 2px solid #ffffff;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* Desktop Footer Layout */
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    text-align: left;
+  }
+
+  .footer-brand,
+  .footer-contact,
+  .footer-newsletter {
+    text-align: left;
+  }
+
+  .footer-logo {
+    justify-content: flex-start;
+  }
+
+  .footer-links {
+    align-items: flex-start;
+  }
+}
