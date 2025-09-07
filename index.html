@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Valley Analytics</title>
+    <meta name="description" content="Data strategy, analytics training, and hands-on insights from an experienced analytics leader.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="nav-brand">
+                    <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="nav-logo">
+                    <span class="nav-title">River Valley Analytics</span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="work-with-me.html" class="nav-link">Work With Me</a>
+                    <a href="the-everyday-analyst.html" class="nav-link">The Everyday Analyst</a>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span id="menu-icon">☰</span>
+                </button>
+            </div>
+            
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html" class="mobile-nav-link active" onclick="closeMobileMenu()">Home</a>
+                <a href="about.html" class="mobile-nav-link" onclick="closeMobileMenu()">About Me</a>
+                <a href="work-with-me.html" class="mobile-nav-link" onclick="closeMobileMenu()">Work With Me</a>
+                <a href="the-everyday-analyst.html" class="mobile-nav-link" onclick="closeMobileMenu()">The Everyday Analyst</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="hero-logo">
+                            <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="hero-logo-img">
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            River Valley
+                            <span class="hero-title-accent">Analytics</span>
+                        </h1>
+                        <div class="hero-divider"></div>
+                        
+                        <p class="hero-description">
+                            Data strategy consulting, analytics training, and hands-on support for your data needs.
+                        </p>
+                        
+                        <div class="hero-buttons">
+                            <a href="about.html" class="btn btn-primary">About Mitch</a>
+                            <a href="work-with-me.html" class="btn btn-secondary">Work With Me</a>
+                            <a href="the-everyday-analyst.html" class="btn btn-tertiary">The Everyday Analyst</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-card-container">
+                        <div class="hero-decorative hero-decorative-1"></div>
+                        <div class="hero-decorative hero-decorative-2"></div>
+                        <div class="hero-card">
+                            <h3 class="hero-card-title">Put Your Data to Work</h3>
+                            <p class="hero-card-text">
+                                From strategy to execution, I help organizations unlock the power of their data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="features-header">
+                    <h2 class="features-title">What I Do</h2>
+                    <div class="features-divider"></div>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-strategy"></div>
+                        <h3 class="feature-title">Strategy</h3>
+                        <p class="feature-description">
+                            Analytics strategy and roadmap development for data-driven organizations.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-training"></div>
+                        <h3 class="feature-title">Training</h3>
+                        <p class="feature-description">
+                            Hands-on training in Excel, SQL, and data visualization for teams and individuals.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon feature-icon-insights"></div>
+                        <h3 class="feature-title">Insights</h3>
+                        <p class="feature-description">
+                            Data storytelling and executive communication that drives decision-making.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="footer-logo-img">
+                        <h3 class="footer-brand-title">River Valley Analytics</h3>
+                    </div>
+                    <p class="footer-brand-text">Data strategy, analytics training, and hands-on insights.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-section-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:contact@rivervalleyanalytics.com" class="footer-link">
+                            <span class="footer-icon">✉</span>
+                            <span>contact@rivervalleyanalytics.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gravesmitchell/" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <span class="footer-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4 class="footer-section-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Stay updated with The Everyday Analyst</p>
+                    <a href="https://theeverydayanalyst.substack.com/" target="_blank" rel="noopener noreferrer" class="btn btn-newsletter">
+                        Subscribe
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 River Valley Analytics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mitch Graves | River Valley Analytics</title>
+    <meta name="description" content="Learn about Mitch Graves, data scientist with 8+ years of experience in analytics strategy and training.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="nav-brand">
+                    <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="nav-logo">
+                    <span class="nav-title">River Valley Analytics</span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link active">About Me</a>
+                    <a href="work-with-me.html" class="nav-link">Work With Me</a>
+                    <a href="the-everyday-analyst.html" class="nav-link">The Everyday Analyst</a>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span id="menu-icon">☰</span>
+                </button>
+            </div>
+            
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html" class="mobile-nav-link" onclick="closeMobileMenu()">Home</a>
+                <a href="about.html" class="mobile-nav-link active" onclick="closeMobileMenu()">About Me</a>
+                <a href="work-with-me.html" class="mobile-nav-link" onclick="closeMobileMenu()">Work With Me</a>
+                <a href="the-everyday-analyst.html" class="mobile-nav-link" onclick="closeMobileMenu()">The Everyday Analyst</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <div class="page-logo">
+                    <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="page-logo-img">
+                </div>
+                <h1 class="page-title">
+                    About <span class="page-title-accent">Mitch Graves</span>
+                </h1>
+                <div class="page-divider"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="content-card content-card-primary">
+                        <h2 class="content-card-title">Philosophy</h2>
+                        <div class="content-card-text">
+                            <p>
+                                Technical skills are just one piece of the puzzle. Where many analysts fall short is in identifying
+                                the most valuable problems to solve, communicating their insights clearly, and turning analysis into
+                                action.
+                            </p>
+                            <p>
+                                My goal is to help everyone, regardless of job title or function, to think like an analyst. That means
+                                learning how to spot opportunities, structure your thinking, quantify impact, and communicate findings
+                                in a way that actually drives decisions.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h2 class="content-card-title">Background</h2>
+                        <div class="content-card-text">
+                            <p>
+                                I'm a data scientist with over 8 years of experience across diverse roles, including data
+                                architecture, product analytics, and strategy. I specialize in breaking down complex systems and
+                                business problems to uncover insights that drive high-value, data-informed decisions. I like to get
+                                things done, stay curious, and keep communication simple, whether I'm working with engineers or
+                                executive teams. If you're looking for someone who can cut through the noise and help you use data in
+                                a way that actually makes a difference, you're in the right place.
+                            </p>
+                            <p>
+                                I've helped health systems, startups, and enterprise software companies turn messy data into clear
+                                insights that drive action. Whether it's leading high-stakes reporting during a crisis, building
+                                analytics infrastructure from scratch, or partnering with executives to shape strategy, I bring a mix
+                                of technical depth, business intuition, and a bias for impact. My experience includes reporting to
+                                federal agencies during COVID-19, measuring clinical and financial outcomes at Virta Health, and
+                                driving product strategy at athenahealth, one of the largest healthcare software companies in the
+                                United States.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-sidebar">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="images/mitch-headshot.jpeg" alt="Mitch Graves - Analytics Leader" class="profile-img">
+                        </div>
+                        <h3 class="profile-name">Mitch Graves</h3>
+                        <p class="profile-title">Data Guy</p>
+                    </div>
+                    
+                    <div class="highlights-card">
+                        <h3 class="highlights-title">Highlights</h3>
+                        <div class="highlights-content">
+                            <div class="highlight-item">
+                                <h4 class="highlight-label">Years of Experience</h4>
+                                <p class="highlight-value">8+</p>
+                            </div>
+                            
+                            <div class="highlight-item">
+                                <h4 class="highlight-label">Industries</h4>
+                                <div class="highlight-list">
+                                    <p class="highlight-list-item">Digital Health</p>
+                                    <p class="highlight-list-item">Technology</p>
+                                    <p class="highlight-list-item">Healthcare Providers</p>
+                                    <p class="highlight-list-item">Healthcare Payers</p>
+                                </div>
+                            </div>
+                            
+                            <div class="highlight-item">
+                                <h4 class="highlight-label">Toolset</h4>
+                                <div class="toolset-grid">
+                                    <span class="tool-tag">SQL</span>
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">Airflow</span>
+                                    <span class="tool-tag">dbt</span>
+                                    <span class="tool-tag">Tableau</span>
+                                    <span class="tool-tag">Looker</span>
+                                    <span class="tool-tag">Sigma</span>
+                                    <span class="tool-tag">Snowflake</span>
+                                    <span class="tool-tag">BigQuery</span>
+                                    <span class="tool-tag">SQL Server</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="footer-logo-img">
+                        <h3 class="footer-brand-title">River Valley Analytics</h3>
+                    </div>
+                    <p class="footer-brand-text">Data strategy, analytics training, and hands-on insights.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-section-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:contact@rivervalleyanalytics.com" class="footer-link">
+                            <span class="footer-icon">✉</span>
+                            <span>contact@rivervalleyanalytics.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gravesmitchell/" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <span class="footer-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4 class="footer-section-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Stay updated with The Everyday Analyst</p>
+                    <a href="https://theeverydayanalyst.substack.com/" target="_blank" rel="noopener noreferrer" class="btn btn-newsletter">
+                        Subscribe
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 River Valley Analytics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

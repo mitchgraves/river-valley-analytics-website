@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Everyday Analyst | River Valley Analytics</title>
+    <meta name="description" content="Practical insights, training, and community for analytics professionals who want to level up their skills.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="nav-brand">
+                    <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="nav-logo">
+                    <span class="nav-title">River Valley Analytics</span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="work-with-me.html" class="nav-link">Work With Me</a>
+                    <a href="the-everyday-analyst.html" class="nav-link active">The Everyday Analyst</a>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span id="menu-icon">☰</span>
+                </button>
+            </div>
+            
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html" class="mobile-nav-link" onclick="closeMobileMenu()">Home</a>
+                <a href="about.html" class="mobile-nav-link" onclick="closeMobileMenu()">About Me</a>
+                <a href="work-with-me.html" class="mobile-nav-link" onclick="closeMobileMenu()">Work With Me</a>
+                <a href="the-everyday-analyst.html" class="mobile-nav-link active" onclick="closeMobileMenu()">The Everyday Analyst</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="analyst-page">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="analyst-header">
+                <h1 class="analyst-title">
+                    THE <span class="analyst-title-accent">EVERYDAY</span><br>
+                    <span class="analyst-title-secondary">ANALYST</span>
+                </h1>
+                <div class="analyst-divider"></div>
+                <p class="analyst-description">
+                    Practical insights, training, and community for professionals who want to level up their skills, 
+                    feel more comfortable leveraging data, and make a bigger impact.
+                </p>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="analyst-grid">
+                <!-- Newsletter Section -->
+                <div class="analyst-section analyst-newsletter">
+                    <div class="analyst-section-header">
+                        <span class="analyst-icon">✉</span>
+                        <h2 class="analyst-section-title">NEWSLETTER</h2>
+                    </div>
+
+                    <p class="analyst-section-description">
+                        A free weekly newsletter for professionals across operations, marketing, finance, product, 
+                        customer success, and beyond who want to upskill and thrive in a data-driven world.
+                    </p>
+
+                    <div class="analyst-features">
+                        <div class="analyst-feature">
+                            <div class="analyst-feature-dot"></div>
+                            <span class="analyst-feature-text">Practical tips you can apply immediately</span>
+                        </div>
+                        <div class="analyst-feature">
+                            <div class="analyst-feature-dot"></div>
+                            <span class="analyst-feature-text">Real-world case studies and examples</span>
+                        </div>
+                        <div class="analyst-feature">
+                            <div class="analyst-feature-dot"></div>
+                            <span class="analyst-feature-text">Career advice for analytics professionals</span>
+                        </div>
+                    </div>
+
+                    <div class="analyst-perfect-for">
+                        <h3 class="analyst-perfect-for-title">PERFECT FOR:</h3>
+                        <div class="analyst-perfect-for-grid">
+                            <div class="analyst-perfect-for-item">Aspiring Data Analysts</div>
+                            <div class="analyst-perfect-for-item">Product Managers</div>
+                            <div class="analyst-perfect-for-item">Marketing Specialists</div>
+                            <div class="analyst-perfect-for-item">Financial Analysts</div>
+                        </div>
+                    </div>
+
+                    <a href="https://theeverydayanalyst.substack.com/" target="_blank" rel="noopener noreferrer" 
+                       class="btn btn-newsletter-cta">
+                        READ ON SUBSTACK
+                    </a>
+                </div>
+
+                <!-- Live Training Section -->
+                <div class="analyst-section analyst-training">
+                    <div class="analyst-section-header">
+                        <span class="analyst-icon">👥</span>
+                        <h2 class="analyst-section-title">LIVE TRAINING</h2>
+                    </div>
+
+                    <h3 class="analyst-course-title">THINK LIKE AN ANALYST</h3>
+                    <p class="analyst-section-description">
+                        Coming this winter, a live cohort-based course that teaches the analytical mindset and 
+                        problem-solving frameworks used by top analysts.
+                    </p>
+
+                    <div class="analyst-learn-box">
+                        <h4 class="analyst-learn-title">WHAT YOU'LL LEARN:</h4>
+                        <ul class="analyst-learn-list">
+                            <li>• Structured problem-solving methodologies</li>
+                            <li>• How to avoid common data traps</li>
+                            <li>• Executive communication strategies</li>
+                            <li>• How to influence using data</li>
+                        </ul>
+                    </div>
+
+                    <div class="analyst-join-box">
+                        <h4 class="analyst-join-title">WHO SHOULD JOIN:</h4>
+                        <p class="analyst-join-text">
+                            Anyone who wants to build skills and confidence in using data to make smarter decisions 
+                            on a daily basis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom CTA -->
+            <div class="analyst-cta">
+                <div class="analyst-cta-content">
+                    <h2 class="analyst-cta-title">Join the Community</h2>
+                    <p class="analyst-cta-description">
+                        Get notified about upcoming cohorts, new training offerings, and exclusive content.
+                    </p>
+
+                    <div class="analyst-cta-buttons">
+                        <a href="mailto:contact@rivervalleyanalytics.com?subject=Training Waitlist&body=Hi Mitch,%0D%0A%0D%0APlease add me to the waitlist for upcoming training programs.%0D%0A%0D%0AName:%0D%0ARole:%0D%0AExperience Level:%0D%0AInterested In:"
+                           class="btn btn-cta-primary">
+                            Join Waitlist
+                        </a>
+
+                        <a href="https://theeverydayanalyst.substack.com/" target="_blank" rel="noopener noreferrer"
+                           class="btn btn-cta-secondary">
+                            Subscribe to Newsletter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/river-valley-logo.png" alt="River Valley Analytics Logo" class="footer-logo-img">
+                        <h3 class="footer-brand-title">River Valley Analytics</h3>
+                    </div>
+                    <p class="footer-brand-text">Data strategy, analytics training, and hands-on insights.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-section-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="mailto:contact@rivervalleyanalytics.com" class="footer-link">
+                            <span class="footer-icon">✉</span>
+                            <span>contact@rivervalleyanalytics.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gravesmitchell/" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <span class="footer-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4 class="footer-section-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Stay updated with The Everyday Analyst</p>
+                    <a href="https://theeverydayanalyst.substack.com/" target="_blank" rel="noopener noreferrer" class="btn btn-newsletter">
+                        Subscribe
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 River Valley Analytics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
